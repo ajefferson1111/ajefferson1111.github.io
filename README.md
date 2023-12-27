@@ -35,6 +35,13 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 For any inquiries or collaborations, feel free to contact me through the details provided on the website.
 
+## todo
+
+- fix send issue on contact page
+- configure hugo websit
+- configure about me and projects page
+- fix nav bar layout
+- center text throught the pages
 ---
 
 &copy; 2023 Aaron Jefferson
