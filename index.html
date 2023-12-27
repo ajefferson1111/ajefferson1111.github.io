@@ -1,37 +1,65 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <!-- Head content similar for all pages -->
-    <title>Home - Your Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Jefferson CPDT-KA | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- Navigation similar for all pages -->
-    <nav>
-        <div class="nav-toggle">☰</div>
-        <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <!-- Other menu items -->
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <h1>Welcome to My Portfolio</h1>
-        <!-- Home page content -->
+        <section id="intro" class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Aaron Jefferson, a Software Engineer, Data Analyst, and Certified Professional Dog Trainer (CPDT-KA).</p>
+            <a href="projects.html" class="btn">View More Projects</a>
+            <a href="resume.html" class="btn">Download Resume</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Brief bio goes here. Talk about your background, skills, and interests.</p>
+            <!-- Link to About page for more details -->
+            <a href="about.html" class="btn">Read More</a>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Showcase a few key projects -->
+            <div class="project">Project 1 details...</div>
+            <div class="project">Project 2 details...</div>
+            <!-- Link to Projects page for more projects -->
+            <a href="projects.html" class="btn">More Projects</a>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Highlight key aspects of your resume.</p>
+            <!-- Link to Resume page for detailed resume -->
+            <a href="resume.html" class="btn">Full Resume</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Invite visitors to get in touch.</p>
+            <!-- Link to Contact page for detailed contact form -->
+            <a href="contact.html" class="btn">Contact Me</a>
+        </section>
     </main>
 
-    <!-- Footer similar for all pages -->
     <footer>
-        <!-- Footer content -->
+        <p>&copy; 2023 Aaron Jefferson</p>
     </footer>
-    <script src="js/navToggle.js"></script>
-    <script src="js/smoothScroll.js"></script>
 </body>
-
 </html>
