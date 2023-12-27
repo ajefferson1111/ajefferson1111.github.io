@@ -5,57 +5,61 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
+nav {
+    background-color: #333; /* Dark background for nav */
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-header nav ul li a {
+.nav-menu li a {
+    padding: 10px 15px; /* Spacing around nav links */
     color: white;
     text-decoration: none;
 }
 
-.intro {
-    text-align: center;
-    padding: 50px 20px;
+h1, h2, h3 {
+    color: #007bff; /* Brand color for headings */
 }
 
-.intro h1 {
-    margin: 0;
+.resume-content h2 {
+    border-bottom: 1px solid #eee; /* Subtle line under section titles */
+    margin-bottom: 20px; /* Space below section titles */
 }
 
-.btn {
+.resume-content ul {
+    padding-left: 20px; /* Indent for list items */
+}
+
+.resume-content li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.resume-download a.btn {
+    background-color: #28a745; /* Different color for download button */
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 footer {
+    background-color: #222; /* Slightly different footer background */
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
     color: white;
 }
 
-@media (max-width: 600px) {
-    header nav ul li {
+@media (max-width: 768px) {
+    .nav-menu li {
+        display: block; /* Stack nav items on smaller screens */
+        margin-bottom: 5px; /* Space between stacked nav items */
+    }
+
+    .nav-toggle {
         display: block;
-        margin-bottom: 10px;
+    }
+
+    .resume-content h2 {
+        font-size: 1.25rem; /* Smaller headings on smaller screens */
     }
 }
