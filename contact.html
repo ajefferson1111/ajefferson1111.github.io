@@ -6,16 +6,33 @@
 </head>
 <body>
     <nav>
-        <!-- Navigation content -->
+        <div class="nav-toggle">☰</div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">About</a></li>
+            <li><a href="projects.html">About</a></li>
+            <li><a href="resume.html">About</a></li>
+            <!-- Other menu items -->
+        </ul>
     </nav>
 
     <main>
-        <h1>About Me</h1>
-        <!-- About page content -->
+        <h1>Contact me</h1>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        
     </main>
 
     <footer>
         <!-- Footer content -->
     </footer>
+    <script src="js/navToggle.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/formValidation.js"></script>
 </body>
 </html>
