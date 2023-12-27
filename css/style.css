@@ -49,10 +49,25 @@ footer {
     color: #fff;
 }
 
-/* Responsive design */
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-menu {
+    /* Styles for your menu */
+}
+
 @media (max-width: 600px) {
-    nav ul li {
+    .nav-toggle {
         display: block;
-        margin-bottom: 10px;
+    }
+
+    .nav-menu.is-active {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
     }
 }
